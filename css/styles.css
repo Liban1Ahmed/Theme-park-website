@@ -1,0 +1,169 @@
+/* General styles*/
+body {
+    /* font family and fallback (cursive)*/
+    font-family: 'Comic Sans MS', cursive;
+    color: #333; /* gray */
+    background-color: #f5f5dc; /* beige background color for whole page */
+    padding: 5%; /* 5% padding around the entire page */
+}
+
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between; /* Logo on the left and nav on the right */
+    align-items: center;
+}
+
+#logo img {
+    width: auto; /* Width auto-adjusts*/
+    height: 100px; /* Fixed height for the logo*/
+}
+
+/* Styling for H2 and H3 headings */
+h2, h3 {
+    color: #b22222; /* red */
+    text-shadow: 2px 2px #daa520; /* Adds a shadow to text, yellow color */
+}
+
+/* Navigation styles */
+nav a {
+    color: #008000; /* Green color for unvisited links */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1.2em;
+    padding: 0 10px; /* Left and right padding for spacing out links */
+}
+
+nav a:hover {
+    color: #daa520; /* Yellow color for hovered links */
+}
+
+
+/* Main section styles */
+main p {
+    color: #6a5acd; /* Dark blue color for paragraph text in the main section */
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify; /* The text spans the full width of its container */
+}
+
+/* Animation styles for the introduction section */
+#introduction h2 {
+    animation: slideIn 3s ease; /* Specifies the name, duration, and timing function of the animation */
+}
+
+@keyframes slideIn {
+    /* Animation starts with the heading halfway off the screen and transparent */
+    from {
+        margin-left: 50%;
+        opacity: 0;
+    }
+    /* Animation ends with the heading in its original place and fully opaque */
+    to {
+        margin-left: 0;
+        opacity: 1;
+    }
+}
+
+/* Grid styles for the events section */
+#events > div {
+    display: grid; /* Display container as grid*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*Automatically fit as many 200px columns as possible */
+    gap: 2rem; /* Space between grid items */
+    padding: 1rem; /* Padding around the grid */
+    font-size: 0.8em;
+    min-height: 300px; /* Minimum height for grid */
+}
+
+/* Styles for each event. */
+#events article {
+    border: 1px solid #bba834; /* dds a border to each event, yellow. */
+    padding: 10px; /* Padding inside each event */
+    box-sizing: border-box; /* To keep dimensions (including padding and border) within specified width/height */
+}
+
+/* Styles specifically for event titles */
+#events h3 {
+    color: #ff4500; /*  Red  color */
+    font-size: 1.5em;
+    text-align: center; /* Center text */
+}
+
+/* Styles for the event images */
+#events img {
+    width: 100%; /* Full width of their container */
+    height: auto; /* Auto height maintains aspect ratio */
+    max-width: 600px; /* Maximum width limit to keep from becoming too large on big screens */
+}
+
+/* Styles for the tickets section */
+#tickets img {
+    width: 100%; /* Sets the image width to 100% of its containing element */
+    height: auto; /* Auto height maintains aspect ratio */
+    max-width: 600px; /* limit maximum width to avoid too large image on big screen */
+    display: block; /* Ensures the image takes up the full line */
+    margin: 0 auto; /* Centers the image if it is smaller than its containing element */
+}
+
+/* Styles for the hotel section */
+#hotel-options {
+    display: grid; /* Display container as grid*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*Automatically fit as many 200px columns as possible */
+    gap: 2rem; /* Space between grid items */
+    padding: 1rem; /* Padding around the grid */
+    min-height: 300px; /* Minimum height for grid */
+}
+
+/* Styles for the hotel images */
+#hotel img {
+    width: 100%; /* Full width of their container */
+    height: auto; /* Auto height maintains aspect ratio */
+    max-width: 600px; /* Maximum width limit to keep from becoming too large on big screens */
+}
+
+/* Styles for the park map section */
+#park-map {
+    text-align: center; /* Aligns the text to the center */
+}
+
+/* Styles for the park map images*/
+#park-map img {
+    width: 100%; /* Sets the image width to 100% of its containing element */
+    height: auto; /* Auto height maintains aspect ratio */
+    max-width: 800px; /* limit maximum width to avoid too large image on big screen */
+    display: block; /* Ensures the image takes up the full line */
+    margin: 0 auto; /* Centers the image if it is smaller than its containing element */
+}
+
+/* Styles for opening hours section*/
+#opening-hours {
+    text-align: center; /* Aligns the text to the center */
+    padding: 50px; /* Top, right, bottom, left padding */
+}
+
+/*Styles for the table inside opening hours section*/
+#opening-hours table {
+    margin: auto; /* Horizontally centers the table */
+}
+
+/* Styles for footer */
+footer {
+    padding: 100px;
+    text-align: center;
+}
+
+footer p {
+    color: #6b8e23; /*OliveDrab (green) color*/
+    font-size: 1.0em;
+}
+
+/* Styles for contact section */
+#contacts a {
+    color: #8b4513; /*  brown  */
+    text-decoration: none; /* Removes underline from links */
+}
+
+
+
+
+

@@ -1,0 +1,23 @@
+HTML Semantic Elements (use sections with id, instead divs):
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+CSS Grid Layout Module
+https://www.w3schools.com/css/css_grid.asp
+
+Pictures made by microsoft designer 02.01.2024:
+Logo - Create Theme park logo
+Pictures for events:
+Event 1 - Celebrate Christmas at our Theme Park
+Event 2 - Celebrate Easter at our theme park
+
+Text and pictures generated with Monica app Version: 1.2.1, GPT-4 model:
+Main page introduction section - Generate text for a Theme park introduction section
+Main page event 1 - Generate text for Christmas Eve description for The theme park
+Main page event 2 - Generate text for Easter description for The theme park
+Main page event 3 - Generate text for Yearly subscription plan for The theme park
+Booking page calendar  - calendar image for website, no images (upscale 1 time)
+Booking page Accommodations image - Accommodations theme park inside
+Information page about our rides section text - Write text about theme park include rides and shows.
+Information page Map image - theme park map
+Information page Accessibility information text - Write Accessibility information text for theme park.
+
